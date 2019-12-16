@@ -1,0 +1,37 @@
+{
+  "id": "948efcf2-b740-4c40-bb2d-4e4a46adfd87",
+  "version": 2,
+  "tenant_id": "0ef03214-6e47-4e50-87f2-a5955ba6095c",
+  "login": "mylogin",
+  "contact": {
+    "email": "me@mysite.com",
+    "address1": "1440 River Drive #100",
+    "address2": "",
+    "country": "USA",
+    "state": "CA",
+    "zipcode": "12345",
+    "city": "Rivertown",
+    "phone": "123456789",
+    "firstname": "John",
+    "lastname": "Doe"
+  },
+  "activated": true,
+  "enabled": true,
+  "terms_accepted": true,
+  "created_at": "2016-06-22T18:25:16",
+  "language": "ru",
+  "idp_id": "e6f73a28-ff2e-4728-8f78-49eb74b20fce",
+  "external_id": "S-1-5-21-917267712-1342860078-1792151419-500",
+  "personal_tenant_id": "2f8ad2e2-28f2-11e7-aad1-5ffe2ad47151",
+  "business_types": [],
+  "notifications": [
+    "maintenance",
+    "quota",
+    "reports",
+    "backup_error",
+    "backup_warning",
+    "backup_info",
+    "backup_daily_report",
+    "backup_critical"
+  ]
+}

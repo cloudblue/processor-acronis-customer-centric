@@ -1,0 +1,136 @@
+{
+  "activation_key": "",
+  "answered": false,
+  "asset": {
+    "connection": {
+      "hub": {
+        "account_id": "",
+        "id": "HB-0999-9403",
+        "instance_id": "c13474a8-f3aa-4908-8c9d-3b9e9f004be9",
+        "name": "ACME Reseller"
+      },
+      "id": "CT-0000-0000-0000",
+      "provider": {
+        "id": "PA-323-693",
+        "name": "ACME Provider"
+      },
+      "type": "preview",
+      "vendor": {
+        "id": "VA-398-343",
+        "name": "IMC Beta Team Vendor"
+      }
+    },
+    "external_id": "430",
+    "external_name": "",
+    "external_uid": "885bb03c-36c4-492c-810e-9003bba7c9f9",
+    "id": "AS-408-567-989-9",
+    "items": [
+      {
+        "display_name": "Acronis O365 Backup per user (Includes 5GB)",
+        "global_id": "PRD-376-646-770-0002",
+        "id": "BU3655GB",
+        "item_type": "Reservation",
+        "mpn": "BU3655GB",
+        "old_quantity": "0",
+        "period": "Monthly",
+        "quantity": "0",
+        "type": "Users"
+      },
+      {
+        "display_name": "Acronis Backup Cloud with 10GB File Storage",
+        "global_id": "PRD-376-646-770-0001",
+        "id": "BU10",
+        "item_type": "Reservation",
+        "mpn": "BU10",
+        "old_quantity": "0",
+        "period": "Monthly",
+        "quantity": "1",
+        "type": "Users"
+      }
+    ],
+    "params": [
+      {
+        "description": "Vendor customer id",
+        "id": "customer_tenant_id",
+        "name": "customer_tenant_id",
+        "type": "text",
+        "value": "",
+        "value_choices": [],
+        "value_error": ""
+      }
+    ],
+    "product": {
+      "id": "PRD-376-646-770",
+      "name": "Acronis End Customer"
+    },
+    "tiers": {
+      "customer": {
+        "contact_info": {
+          "address_line1": "Adriana Point",
+          "address_line2": "",
+          "city": "West Gregory",
+          "contact": {
+            "email": "alexissingleton-ef5d@VA-398-343.com",
+            "first_name": "Alexis",
+            "last_name": "Singleton",
+            "phone_number": {
+              "area_code": "1",
+              "country_code": "+252",
+              "extension": "",
+              "phone_number": "790297"
+            }
+          },
+          "country": "us",
+          "postal_code": "80134",
+          "state": "Virginia"
+        },
+        "external_id": "431",
+        "external_uid": "69552116-a577-4d60-aa46-6cef1c04be42",
+        "id": "TA-0-8513-2416-3837",
+        "name": "Potter, King and Smith"
+      },
+      "tier1": {
+        "contact_info": {
+          "address_line1": "noname",
+          "address_line2": "",
+          "city": "noname",
+          "contact": {
+            "email": "no-reply@acme.example.com",
+            "first_name": "ACME",
+            "last_name": "Reseller",
+            "phone_number": {
+              "area_code": "234",
+              "country_code": "+1",
+              "extension": "",
+              "phone_number": "567890"
+            }
+          },
+          "country": "us",
+          "postal_code": "12111",
+          "state": "Alaska"
+        },
+        "external_id": "1",
+        "external_uid": "08607d48-7b9e-41b2-9cb3-0c4cd9018b2e",
+        "id": "TA-0-0188-5727-0160",
+        "name": "ACME Reseller"
+      },
+      "tier2": {}
+    }
+  },
+  "assignee": "",
+  "contract": {
+    "id": "CRD-00000-00000-00000",
+    "name": "ACME Distribution Contract"
+  },
+  "created": "2019-05-22T09:36:12.848598+00:00",
+  "id": "PR-6348-1627-6252-001",
+  "marketplace": {
+    "id": "MP-00000",
+    "name": "ACME Marketplace"
+  },
+  "note": "",
+  "reason": "",
+  "status": "tiers_setup",
+  "type": "suspend",
+  "updated": "2019-05-22T09:36:12.848642+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "tenant_id": "9c00f313-9a81-4b08-b55d-1bfc4cba519c",
+  "login": "testSSOSERVICES1",
+  "contact": {
+    "email": "adrian.gonzalezalonso@ingrammicro.com",
+    "address1": "16357 Hernandez Orchard",
+    "address2": "Apt. 606",
+    "country": "US",
+    "state": "West Timothyfurt",
+    "zipcode": "94071",
+    "city": "Port Fred",
+    "phone": "+2521263733",
+    "firstname": "Carl",
+    "lastname": "Tran"
+  },
+  "enabled": true,
+  "language": "en_US",
+  "business_types": [
+    "buyer"
+  ],
+  "notifications": [
+    "quota",
+    "reports",
+    "backup_error",
+    "backup_warning",
+    "backup_info",
+    "backup_daily_report",
+    "backup_critical"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quickStart": {
+    "url": "",
+    "key": "",
+    "products": "",
+    "log_level": "ERROR"
+  },
+  "partnerConfig": {
+    "{CONNECTION}": {
+      "default": {
+        "accountExternalIdsConfigRequestSkipPrefix" : [],
+        "service": {
+          "host": "",
+          "api_version": "",
+          "root_host": "",
+          "api_version_old": "",
+          "grant_type": "",
+          "username": "",
+          "password": ""
+        },
+        "templates": {
+          "activation_template": "",
+          "t1_template": ""
+        }
+      }
+    }
+  },
+  "webhookSecret": "",
+  "actionsSecret": "",
+  "executionPort": 8000,
+  "logFilename": "acronis_end_customer.log"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "f313ecf6-9256-4afd-9d47-72e032ee81d0",
+  "version": 2,
+  "name": "The Qwerty Tenant",
+  "customer_type": "enterprise",
+  "parent_id": "fa6859a9-f5e1-4faf-a56c-5a0ae866dc4f",
+  "path": [
+    "fa6859a9-f5e1-4faf-a56c-5a0ae866dc4f",
+    "fa6859a9-f5e1-4faf-a56c-5a0ae866dc4a",
+    "fa6859a9-f5e1-4faf-a56c-5a0ae866dc4c"
+  ],
+  "kind": "partner",
+  "contact": {
+    "email": "me@mysite.com",
+    "address1": "1440 River Drive #100",
+    "address2": "",
+    "country": "USA",
+    "state": "CA",
+    "zipcode": "12345",
+    "city": "Rivertown",
+    "phone": "123456789",
+    "firstname": "John",
+    "lastname": "Doe"
+  },
+  "enabled": true,
+  "customer_id": "123asd",
+  "brand_id": 1,
+  "internal_tag": null,
+  "language": "en",
+  "owner_id": "03fa8bf4-28f2-11e7-ba28-cbe99c3c450a",
+  "has_children": true,
+  "ancestral_access": true,
+  "update_lock": {
+    "enabled": true,
+    "owner_id": "7decff12-ee1b-4f8d-b446-59610bfb9203"
+  }
+}

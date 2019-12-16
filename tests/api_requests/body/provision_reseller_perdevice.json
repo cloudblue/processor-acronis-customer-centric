@@ -1,0 +1,13 @@
+{
+  "name": "TEST SSO TENANT SERVICES1",
+  "parent_id": "009bbe22-1ea1-4a8a-93a6-330c321fd435",
+  "kind": "partner",
+  "contact": {
+    "email": "adrian.gonzalezalonso@ingrammicro.com",
+    "address": "Home",
+    "phone": "123456789"
+  },
+  "customer_id": "osa_account_id=TA-0-6789-112-6813;osa_subscription_id=PR-6495-12-6092;billing_model=per_gb;tier=no;subscription_start=12.2018",
+  "internal_tag": null,
+  "language": "en_US"
+}

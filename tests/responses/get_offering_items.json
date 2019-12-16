@@ -1,0 +1,51 @@
+{
+"items": [
+{
+"application_id": "a9fd8016-0e00-4ade-949e-6efe8672dac0",
+"name": "vms",
+"status": 1,
+"locked": true,
+"type": "count",
+"measurement_unit": "quantity",
+"quota": {
+"value": 10,
+"overage": 10,
+"version": 1486479690324
+}
+},
+{
+"application_id": "a9fd8016-0e00-4ade-949e-6efe8672dac0",
+"name": "mobiles",
+"status": 1,
+"locked": false,
+"type": "count",
+"measurement_unit": "quantity",
+"quota": {
+"value": 10,
+"overage": 10,
+"version": 1486479690324
+}
+},
+{
+"application_id": "a9fd8016-0e00-4ade-949e-6efe8672dac0",
+"name": "local_storage",
+"status": 1,
+"type": "feature",
+"measurement_unit": "n/a"
+},
+{
+"application_id": "a9fd8016-0e00-4ade-949e-6efe8672dac0",
+"name": "storage",
+"status": 1,
+"locked": true,
+"type": "infra",
+"measurement_unit": "bytes",
+"infra_id": "ee978065-8caa-463d-82d7-47006376e7f2",
+"quota": {
+"value": 1000,
+"overage": null,
+"version": 1486479690324
+}
+}
+]
+}

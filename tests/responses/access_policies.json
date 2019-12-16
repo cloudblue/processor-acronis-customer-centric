@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "fb261178-06bc-4268-9337-9639e049e1c8",
+      "issuer_id": "48ef84eb-b0dc-4ade-83d1-0662c8b54f6d",
+      "trustee_id": "de092d74-a977-4c4b-bf15-751fcba6f1a7",
+      "trustee_type": "user_group",
+      "tenant_id": "72acaf6a-b15a-11e6-80f5-76304dec7eb7",
+      "role_id": "unit_admin",
+      "resource": {
+        "resource_id": "socialBackupQueue",
+        "resource_server_id": "task-manager",
+        "scope_type": "taskQueue"
+      },
+      "version": 1
+    }
+  ]
+}

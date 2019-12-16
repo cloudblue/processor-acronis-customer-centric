@@ -1,0 +1,13 @@
+{
+  "name": "The Qwerty Tenant 3b",
+  "parent_id": "009bbe22-1ea1-4a8a-93a6-330c321fd435",
+  "kind": "partner",
+  "contact": {
+    "email": "su@test.com",
+    "address": "Home",
+    "phone": "123456789"
+  },
+  "customer_id": "osa_account_id=TA-0-6789-7077-6813;osa_subscription_id=PR-6495-9449-6072;billing_model=per_gb;tier=no;subscription_start=12.2018",
+  "internal_tag": null,
+  "language": "pt_BR"
+}

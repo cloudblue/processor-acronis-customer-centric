@@ -1,0 +1,147 @@
+###Current user info#################
+GET {{host}}{{api_version}}/users/me
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Get the list of Existing Resellers#################
+POST {{host}}{{api_version}}/tenants/{parent_tenant}/children
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Get information about a Reseller#################
+GET {{host}}{{api_version}}/tenants/cfcbc286-56bc-4add-a543-204d8250ef76
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+
+###Provision a new Reseller account with Per-Device licensing model#################
+POST {{host}}{{api_version}}/tenants
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/provision_reseller_perdevice.json
+################################
+
+###Provision a new Reseller account with Per-GB licensing model#################
+POST {{host}}{{api_version}}/tenants
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/provision_reseller_pergb.json
+################################
+
+###Switch a Reseller between 2 billing models#################
+PUT {{host}}{{api_version}}/tenants/{{tenant_id}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/switch_reseller_model.json
+################################
+
+
+###Modify a Reseller#################
+PUT {{host}}{{api_version}}/tenants/{tenant_id}?version={{curent_version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/modify_reseller.json
+################################
+
+
+###Get the List of Applications Available to a Reseller#################
+GET {{host}}{{api_version}}/tenants/{tenant_id}/applications?version={{curent_version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Get the List of Offering Items per Application Available to a Reseller#################
+GET {{host}}{{api_version}}/tenants/{tenant_id}/applications/{application_id}/offering_items?version={{curent_version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Enable Application and Offering Items for a Reseller#################
+PUT {{host}}{{api_version}}/tenants/{tenant_id}/offering_items?version={{curent_version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Check Administrator Login for Unicity#################
+GET {{host}}{{api_version}}/users/check_login?username={{username}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Make an Administrator Read-only#################
+PUT {{host}}{{api_version}}/users/{{id}}/access_policies?version={{curent_version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Modify the Administrator#################
+PUT {{host}}{{api_version}}/users/{{user_id}}?version={{version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/modify_admin.json
+################################
+
+###Remove the Reseller Administrator#################
+PUT {{host}}{{api_version}}/users/{{user_id}}?version={{version}}
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+################################
+
+###Suspend a Reseller account#################
+PUT https://us5-cloud.acronis.com/api/2/tenants/b55bead8-fb42-457f-b47c-5c0d3a281ad5?version=1
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/suspend_reseller_acc.json
+################################
+
+###Resume a Reseller account#################
+PUT https://us5-cloud.acronis.com/api/2/tenants/b55bead8-fb42-457f-b47c-5c0d3a281ad5
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/resume_reseller_acc.json
+################################
+
+###Remove a Reseller account and all its data#################
+DELETE https://us5-cloud.acronis.com/api/2/tenants/e61d8a1b-c489-405c-a578-db068fd9b776?version=4
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/delete_reseller.json
+################################
+
+
+############
+GET {{host}}{{api_version}}/tenants/009bbe22-1ea1-4a8a-93a6-330c321fd435/applications
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+############
+
+############
+GET {{host}}{{api_version}}/tenants/009bbe22-1ea1-4a8a-93a6-330c321fd435/offering_items
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+############
+
+############
+GET {{host}}{{api_version}}/tenants/009bbe22-1ea1-4a8a-93a6-330c321fd435/offering_items/available_for_child
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+############
+
+####################
+PUT {{host}}{{api_version}}/tenants/9c00f313-9a81-4b08-b55d-1bfc4cba519c/offering_items
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/offerings.json
+################################

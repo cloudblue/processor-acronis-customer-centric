@@ -1,0 +1,125 @@
+{
+  "contract": {
+    "id": "CRD-28554-73859-52215",
+    "name": "Contract of Acronis customer"
+  },
+  "status": "pending",
+  "updated": "2019-05-14T08:44:15+00:00",
+  "created": "2019-05-14T08:44:15+00:00",
+  "id": "1560505275",
+  "reason": "",
+  "marketplace": {
+    "id": "MP-34906",
+    "name": "Andrian Marketplace"
+  },
+  "asset": {
+    "product": {
+      "id": "PRD-376-646-770",
+      "name": "Acronis End Customer"
+    },
+    "external_uid": "180819824182293458304117850156171003516",
+    "items": [
+      {
+        "mpn": "SRAAMSENS",
+        "quantity": 1,
+        "id": "SRAAMSENS",
+        "old_quantity": 0,
+        "global_id": "PRD-376-646-770-0002"
+      },
+      {
+        "mpn": "BU10",
+        "quantity": 0,
+        "id": "BU10",
+        "old_quantity": 0,
+        "global_id": "PRD-376-646-770-0001"
+      }
+    ],
+    "params": [
+      {
+        "value": "",
+        "value_error": "",
+        "id": "customer_tenant_id",
+        "value_choices": [],
+        "type": "text",
+        "name": "customer_tenant_id"
+      },
+      {
+        "value": "1560505275",
+        "value_error": "",
+        "id": "customer_admin",
+        "value_choices": [],
+        "type": "text",
+        "name": "customer_admin"
+      }
+    ],
+    "id": "AS-961-860-855-4",
+    "tiers": {
+      "tier1": {
+        "external_uid": "144254331810453050094024614115587688663",
+        "id": "TA-0-1620-2171-2973",
+        "external_id": "1",
+        "contact_info": {
+          "address_line1": "22 Acacia ave.",
+          "contact": {
+            "email": "adrian.gonzalezalonso@igrammicro.com",
+            "phone_number": {
+              "extension": "",
+              "phone_number": "999999",
+              "area_code": "",
+              "country_code": "+1"
+            },
+            "first_name": "Willie",
+            "last_name": "Nelson"
+          },
+          "address_line2": "22 Acacia ave.",
+          "city": "Cheyenne",
+          "country": "us",
+          "state": "WY",
+          "postal_code": "82100"
+        },
+        "name": "Customer Prueba adrian change"
+      },
+      "customer": {
+        "external_uid": "338781179791266547402458529505958077911",
+        "id": "TA-0-0409-6911-0719",
+        "external_id": "1000028",
+        "contact_info": {
+          "address_line1": "22 Acacia ave.",
+          "contact": {
+            "email": "adrian.gonzalezalonso@ingrammicro.com",
+            "phone_number": {
+              "extension": "",
+              "phone_number": "1999999",
+              "area_code": "",
+              "country_code": "+1"
+            },
+            "first_name": "Adrian",
+            "last_name": "Alonso"
+          },
+          "address_line2": "22 Acacia ave.",
+          "city": "Cheyene",
+          "country": "us",
+          "state": "WY",
+          "postal_code": "39200"
+        },
+        "name": "TEST CHANGE"
+      },
+      "tier2": {}
+    },
+    "external_id": "1000061",
+    "connection": {
+      "type": "test",
+      "id": "CT-9393-5309",
+      "vendor": {
+        "id": "VA-398-343",
+        "name": "IMC Beta Team Vendor"
+      },
+      "provider": {
+        "id": "PA-382-181",
+        "name": "IMC Beta Team Provider"
+      }
+    }
+  },
+  "type": "purchase",
+  "activation_key": ""
+}

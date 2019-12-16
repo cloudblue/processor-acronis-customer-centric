@@ -1,0 +1,47 @@
+
+###Provision a new Reseller account with Per-Device licensing model#################
+POST {{host}}{{api_version}}/tenants
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/provision_reseller_perdevice.json
+################################
+
+###Provision a new Reseller account with Per-GB licensing model#################
+POST {{host}}{{api_version}}/tenants
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/provision_reseller_pergb.json
+################################
+
+###Provision an Administrator for the Reseller#################
+POST {{host}}{{api_version}}/users/
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/provision_reseller_admin.json
+
+################################
+GET {{host}}{{api_version}}/tenants/009bbe22-1ea1-4a8a-93a6-330c321fd435/offering_items
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+##########
+
+#######
+PUT  {{host}}{{api_version}}/tenants/9c00f313-9a81-4b08-b55d-1bfc4cba519c/offering_items
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/offerings.json
+
+###
+
+
+POST {{host}}{{api_version}}/users/7f3a675e-ccc7-4c67-a141-58d31045929c/access_policies?version=1
+Content-Type: {{content_type}}
+Authorization: Bearer {{access_token}}
+
+< body/access_policies.json
+
+###

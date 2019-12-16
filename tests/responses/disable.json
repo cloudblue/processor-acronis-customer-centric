@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "internal_tag": null,
+  "has_children": false,
+  "customer_type": "default",
+  "kind": "partner",
+  "language": "en-US",
+  "update_lock": {
+    "enabled": false,
+    "owner_id": null
+  },
+  "brand_id": 1,
+  "ancestral_access": true,
+  "owner_id": null,
+  "id": "ec921350-baf6-44a5-a1b2-7fbc9eb78cb7",
+  "default_idp_id": "11111111-1111-1111-1111-111111111111",
+  "contact": {
+    "address2": null,
+    "state": null,
+    "firstname": "",
+    "email": "adrian.gonzalezalonso@ingrammicro.com",
+    "city": null,
+    "lastname": "",
+    "phone": "123456789",
+    "address1": null,
+    "zipcode": null,
+    "country": null
+  },
+  "version": 2,
+  "customer_id": "osa_account_id=TA-0-6789-112-6813;osa_subscription_id=PR-6495-12-6092;billing_model=per_gb;tier=no;subscription_start=12.2018",
+  "parent_id": "009bbe22-1ea1-4a8a-93a6-330c321fd435",
+  "name": "TEST SSO TENANT TEST10212205"
+}

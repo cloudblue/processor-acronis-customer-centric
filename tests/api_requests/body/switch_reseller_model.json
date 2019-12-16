@@ -1,0 +1,4 @@
+{
+  "customer_id": "osa_account_id={osa_account_id};osa_subscription_id={osa_subscription_id};billing_model=per_gb",
+  "version": "last_tenant_version"
+}

@@ -1,0 +1,106 @@
+{
+  "offering_items": [
+    {
+      "infra_id": "0a08795d-c1fc-4cd6-8c2f-88ee34c195c0",
+      "name": "dr_storage",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "infra_id": "0a08795d-c1fc-4cd6-8c2f-88ee34c195c0",
+      "name": "public_ips",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "infra_id": "0a08795d-c1fc-4cd6-8c2f-88ee34c195c0",
+      "name": "compute_points",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "infra_id": "0a08795d-c1fc-4cd6-8c2f-88ee34c195c0",
+      "name": "dr_cloud_servers",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "infra_id": "0a08795d-c1fc-4cd6-8c2f-88ee34c195c0",
+      "name": "dr_internet_access",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "infra_id": "48bbc633-ff1d-4ea2-9c00-0fe619655cf2",
+      "name": "storage",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "infra_id": "fd8731d5-ede9-4dd4-93e4-6066b044879c",
+      "name": "fc_storage",
+      "application_id": "dfd85a5f-a464-32ab-81fd-99bcc66a070f",
+      "status": 1
+    },
+    {
+      "name": "workstations",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "servers",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "vms",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "mobiles",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "mailboxes",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "websites",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "child_storages",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "local_storage",
+      "application_id": "6e6d758d-8e74-3ae3-ac84-50eb0dff12eb",
+      "status": 1
+    },
+    {
+      "name": "drives_shipped_to_cloud",
+      "application_id": "b71b2c18-590a-303c-9d5a-8444fbe713ac",
+      "status": 1
+    },
+    {
+      "name": "drives_shipped_from_cloud",
+      "application_id": "b71b2c18-590a-303c-9d5a-8444fbe713ac",
+      "status": 1
+    },
+    {
+      "name": "fc_seats",
+      "application_id": "dfd85a5f-a464-32ab-81fd-99bcc66a070f",
+      "status": 1
+    },
+    {
+      "name": "fc_child_storages",
+      "application_id": "dfd85a5f-a464-32ab-81fd-99bcc66a070f",
+      "status": 1
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "configuration": {
+    "tier_level": 1,
+    "product": {
+      "id": "PRD-155-903-1620",
+      "name": "Acronis End Customer"
+    },
+    "params": [
+      {
+        "scope": "tier1",
+        "constraints": {
+          "hidden": false,
+          "required": true
+        },
+        "title": "Admin Login Name",
+        "id": "admin_login_name",
+        "type": "text",
+        "value": "1560505247"
+      },
+      {
+        "scope": "tier1",
+        "constraints": {
+          "hidden": false,
+          "required": true
+        },
+        "title": "Tenant ID",
+        "id": "tenant_id",
+        "type": "text"
+      },
+      {
+        "scope": "tier1",
+        "constraints": {
+          "hidden": false,
+          "required": true
+        },
+        "title": "Admin user id",
+        "id": "admin_id",
+        "type": "text"
+      },
+      {
+        "scope": "tier1",
+        "constraints": {
+          "hidden": false,
+          "required": true
+        },
+        "title": "Reseller generated customer id",
+        "id": "reseller_customer_id",
+        "type": "text"
+      },
+      {
+        "scope": "tier1",
+        "constraints": {
+          "hidden": false,
+          "required": true
+        },
+        "title": "Billing Date",
+        "id": "billing_date",
+        "type": "text"
+      }
+    ],
+    "events": {
+      "updated": {
+        "at": "2019-05-14T08:44:15+00:00"
+      },
+      "created": {
+        "at": "2019-05-14T08:44:15+00:00"
+      }
+    },
+    "account": {
+      "external_id": "OA-",
+      "contact_info": {
+        "state": "WY",
+        "city": "Cheyenne",
+        "address_line2": "22 Acacia ave.",
+        "contact": {
+          "last_name": "Nelson",
+          "first_name": "Willie",
+          "email": "adrian.gonzalezalonso@ingrammicro.com",
+          "phone_number": {
+            "extension": "",
+            "area_code": "",
+            "phone_number": "999999",
+            "country_code": "+1"
+          }
+        },
+        "postal_code": "82100",
+        "country": "us",
+        "address_line1": "22 Acacia ave."
+      },
+      "external_uid": "6c865fac-627e-427a-bc76-4506070888d7",
+      "id": "TA-0-1620-2171-2973",
+      "name": "PRUEBA ADRIAN CHANGE"
+    },
+    "open_request": {
+      "id": "TCR-993-261-472-001"
+    },
+    "id": "TC-1560505247",
+    "name": "Configuration of TA-0-1620-2171-2973",
+    "connection": {
+      "vendor": {
+        "id": "VA-398-343",
+        "name": "IMC Beta Team Vendor"
+      },
+      "provider": {
+        "id": "PA-382-181",
+        "name": "IMC Beta Team Provider"
+      },
+      "id": "CT-9393-5309",
+      "type": "test",
+      "hub": {
+        "id": "HB-5364-7580",
+        "name": "mn.b.agonzalez.spc.dev.cloud.im"
+      }
+    }
+  },
+  "params": [
+    {
+      "scope": "tier1",
+      "constraints": {
+        "hidden": false,
+        "required": true
+      },
+      "title": "Admin Login Name",
+      "id": "admin_login_name",
+      "type": "text",
+      "value": "1560505247"
+    }
+  ],
+  "events": {
+    "inquired": {
+      "at": "2019-05-14T08:44:15+00:00"
+    },
+    "pended": {
+      "by": {
+        "id": "UR-291-528-636",
+        "name": "agonzalez"
+      },
+      "at": "2019-05-22T09:49:25+00:00"
+    },
+    "updated": {
+      "by": {
+        "id": "UR-291-528-636",
+        "name": "agonzalez"
+      },
+      "at": "2019-05-22T09:49:33+00:00"
+    },
+    "created": {
+      "at": "2019-05-14T08:44:15+00:00"
+    }
+  },
+  "status": "pending",
+  "assignee": {
+    "id": "UR-291-528-636",
+    "name": "agonzalez"
+  },
+  "id": "1560505247",
+  "type": "setup"
+}
