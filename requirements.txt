@@ -19,7 +19,7 @@ openpyxl==2.5.14
 packaging==19.0
 portend==2.4
 pycparser==2.19
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.0
 pytz==2019.1
 requests==2.21.0
